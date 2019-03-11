@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -52,13 +53,16 @@ html, body {
   .main {
     flex: 2 0px;
   }
+
   .aside-1 {
     order: 1;
     max-width: 350px;
   }
+
   .main {
     order: 2;
   }
+
   /*.aside-2 { order: 3; }*/
   /*.footer  { order: 4; }*/
 }
@@ -77,7 +81,7 @@ html, body {
 
 .sidebar {
   padding: 50px 30px;
-  background: linear-gradient(rgba(25, 92, 136, 0.877), rgba(255,255,255,0.1));
+  background: linear-gradient(rgba(25, 92, 136, 0.877), rgba(255, 255, 255, 0.1));
 }
 
 .sidebar a {
@@ -98,8 +102,8 @@ html, body {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)) ,url('../images/IMG_0303.JPG');
-  background-position: center ;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../images/IMG_0303.JPG');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 75%;
@@ -356,7 +360,8 @@ html, body {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.print.icon, .main .section .iconHug .icon {
+.print.icon,
+.main .section .iconHug .icon {
   background: #808080;
   color: #fff;
   width: 60px;
@@ -401,4 +406,8 @@ html, body {
 
 .anchor {
   margin-right: 10px;
+}
+
+.skype {
+  margin-bottom: 8px;
 }
